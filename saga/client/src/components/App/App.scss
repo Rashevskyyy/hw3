@@ -1,0 +1,13 @@
+body {
+    font-family: 'Play', sans-serif;
+    margin: 0 auto;
+}
+.app {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(141, 164, 208);
+}
+
+.app.theme-dark {
+    background: rgb(43, 64, 105);
+}

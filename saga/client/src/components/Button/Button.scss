@@ -1,0 +1,22 @@
+button {
+    background-color: #f7cacc;
+    outline: none;
+    color: rgb(87, 87, 87);
+    padding: 10px 40px;
+    border-radius: 4px;
+    border: none;
+    justify-self: center;
+    align-self: center;
+    cursor: pointer;
+    &:disabled{
+        background-color: rgb(247,202,204);
+        cursor: none;
+    }
+}
+
+.theme-dark {
+    button {
+        background: rgb(76, 11, 14);
+        color: rgb(206, 206, 206);
+    }
+}
